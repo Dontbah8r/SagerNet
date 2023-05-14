@@ -322,10 +322,10 @@
         <receiver
             android:name="io.nekohasekai.sagernet.BootReceiver"
             android:directBootAware="true"
-            android:enabled="false"
+            android:enabled="true"
             android:exported="true"
             android:process=":bg">
-            <intent-filter android:priority="999">
+            <intent-filter android:priority="9999">
                 <action android:name="android.intent.action.BOOT_COMPLETED" />
                 <!--<action android:name="android.intent.action.LOCKED_BOOT_COMPLETED" />-->
                 <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
